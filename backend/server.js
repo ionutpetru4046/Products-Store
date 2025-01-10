@@ -10,3 +10,5 @@ app.get("/", (req, res) => {
 app.listen(5800, () => {
     console.log("Server started at http://localhost:5800");
 })
+
+// server.js
