@@ -3,8 +3,8 @@ import express from 'express';
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Server is ready");
+app.get("/products", (req, res) => {
+    res.send(data.products);
 });
 
 app.listen(5800, () => {
