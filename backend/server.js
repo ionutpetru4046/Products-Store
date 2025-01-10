@@ -7,6 +7,7 @@ const app = express();
 
 app.get("/products", (req, res) => {
     res.send(data.products);
+    console.log("server ready");
 });
 
 app.listen(5800, () => {
